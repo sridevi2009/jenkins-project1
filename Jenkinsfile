@@ -37,8 +37,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh """
-                   echo "Here i wrote shell script"
-                   echo "$GREETING"
+                   echo  "Here i wrote shell script"
+                   echo  "$GREETING"
                   # sleep 10
                 """
 
